@@ -1,0 +1,112 @@
+/* colors and fonts */
+
+
+body{
+	background: #393E41;
+	color:;
+	font-family:Lora;
+	font-size:20px;
+}
+
+h1, h2, h3 {
+	font-family:Roboto;
+	font-weight: lighter;
+}
+
+h1{
+	color:#E55934;
+	font-size:55px;
+}
+h2{
+	color:#F2A65A;
+	font-size:28px;
+}
+p{
+	color: #A7A2A9;
+	font-size: 20px;
+}
+
+a{
+	text-decoration: none;
+	color:green;
+}
+
+a:hover {
+	color:red;
+	font-family:Roboto;
+}
+
+/* custom and design with class */
+
+div{
+	background: 
+	border:2px ;
+	margin: 50px
+	
+
+}
+
+.img-circle{
+	border-radius: 50%
+}
+
+.shadowed{
+	box-shadow: 5px 10px 10px black 
+}
+#leader{
+	border:2px solid grey;
+}
+
+
+.container{
+	width: 700px;
+	margin:40px auto;
+}
+@media (max-width: 760px) {
+	.container{
+		width: 600px;	}
+}
+
+@media (max-width: 500px) {
+	.container{
+		width: 400px;	
+	}
+	}
+
+.card-grey{
+	background: grey;
+	padding:40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.3)
+	border-radius:5px;
+	margin: 20px 0px
+	text-align:center;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li{
+	display: inline;
+	padding: 30px;
+}
+
+.list-inline i:hover {
+	font-size: 50px;
+	color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
